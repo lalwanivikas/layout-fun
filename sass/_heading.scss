@@ -1,0 +1,30 @@
+/*
+**************
+Text content
+at the top of the page
+**************
+*/
+.text-container {
+  margin-top: 100px;
+}
+
+.page-heading {
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.page-description {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.8;
+  -webkit-columns: 300px 2;
+     -moz-columns: 300px 2;
+          columns: 300px 2;
+}
+
+@media only screen and (max-width : 600px) {
+  .text-container {
+    margin-top: 3em;
+  }
+}
